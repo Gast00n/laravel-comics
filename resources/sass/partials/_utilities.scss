@@ -1,0 +1,33 @@
+//LAYOUT
+
+.container {
+    max-width:1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+//ALIGN 
+.text-center {
+    text-align: center;
+}
+
+//DISPLAY
+.flex {
+    display: flex;
+}
+
+//SPACERS
+@each $size in 0, 1, 2, 3, 4, 5, 6 {
+    .mt-#{$size} {
+        margin-top: $size + 0rem;
+    }
+    .pt-#{$size} {
+        padding-top: $size + 0rem;
+    }
+    .mb-#{$size} {
+        margin-bottom: $size + 0rem;
+    }
+    .pb-#{$size} {
+        padding-bottom: $size + 0rem;
+    }
+}

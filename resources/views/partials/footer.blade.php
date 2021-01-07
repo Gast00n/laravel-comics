@@ -1,0 +1,3 @@
+<footer class="main-footer">
+    MAIN FOOTER HERE...
+</footer>

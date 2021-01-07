@@ -142,9 +142,7 @@ body {
 .comics-list {
   padding: 0;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
-  grid-gap: 1rem;
+  display: flex;
 }
 .comics-list img {
   width: 100%;

@@ -12,7 +12,7 @@
         <nav class="navbar-nav">
             <ul class="menu">
                 <li>
-                    <a href="#">Character</a>
+                    <a href="#">Characters</a>
                 </li>
                 <li>
                     <a href="#">Comics</a>
@@ -21,9 +21,30 @@
                     <a href="#">Movies</a>
                 </li>
                 <li>
-                    <a href="#">Books</a>
+                    <a href="#">TV</a>
+                </li>
+                <li>
+                    <a href="#">GAMES</a>
+                </li>
+                <li>
+                    <a href="#">Collectibles</a>
+                </li>
+                <li>
+                    <a href="#">Videos</a>
+                </li>
+                <li>
+                    <a href="#">Fans</a>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+                <li>
+                    <a href="#">Shop <i class="fas fa-caret-down"></i></a>
                 </li>
             </ul>
+            <span class="search-bar">
+                Search <i class="fas fa-search"></i>
+            </span>
         </nav>
     </div>
 </header>

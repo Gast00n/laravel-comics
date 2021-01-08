@@ -255,6 +255,93 @@ a {
   margin-right: 10px;
 }
 
+.main-footer {
+  background: url("../images/footer-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  color: #797979;
+  padding: 50px 0;
+}
+.main-footer .container {
+  display: flex;
+}
+.main-footer .title {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.main-footer li {
+  list-style: none;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+.main-footer .left-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-footer .left-box .left-nav,
+.main-footer .left-box .center-nav,
+.main-footer .left-box .right-nav {
+  flex-basis: 30%;
+}
+.main-footer .left-box .copy {
+  flex-basis: 100%;
+}
+.main-footer .left-box .copy a {
+  color: #0282f9;
+}
+.main-footer .right-box {
+  height: 300px;
+}
+.main-footer .right-box img {
+  transform: translateY(-15%);
+}
+
+.social {
+  background: #303030;
+  color: #fff;
+  padding: 50px 0;
+}
+.social .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social .container .btn-social {
+  display: inline-block;
+  border: 2px solid #0282f9;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.social .container span {
+  flex-grow: 1;
+  text-align: right;
+  color: #0282f9;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.social .container .social-list {
+  display: flex;
+}
+.social .container .social-list li {
+  list-style: none;
+  background: #797979;
+  color: #303030;
+  line-height: 44px;
+  border-radius: 50%;
+  margin-left: 10px;
+  font-size: 24px;
+  display: inline-block;
+  width: 46px;
+  text-align: center;
+}
+
 .general-hero {
   height: 390px;
   background: url("../images/bg-hero-home.jpg");

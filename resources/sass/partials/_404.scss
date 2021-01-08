@@ -1,0 +1,18 @@
+.wrap404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .box404 {
+        width: 300px;
+        color: $grey;
+        text-align: center;
+
+        h1 {
+            color: $blue;
+            font-weight: bold;
+            font-size: 100px;
+        }
+    }
+}

@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class ComicController extends Controller
 {
-    public function show($id) {
+    public function show($slug) {
 
         $comics = config('comics');
         /**
@@ -16,13 +17,25 @@ class ComicController extends Controller
         // Metodo A 
         $comic = [];
         foreach ($comics as $item) {
-            if($id == $item['id']) {
-                $comic = $item;
+            foreach ($comics as $item) {
+                //da title a Slug
+                $titleConversion = Str::slug($item['title'], '-');
+
+                //controllo
+                if($slug == $titleConversion) {
+                    $comic = $item;
+                    break;
+                }
             }
         }
 
-        //Metodo B - Collections
-        $comic = collect($comics)->firstWhere('id', $id);
+        // Controllo contenuto
+        if(empty($comic)) {
+            abort(404);
+        }
+
+        // //Metodo B - Collections
+        // $comic = collect($comics)->firstWhere('slug', $slug);
 
         return view('comics.show', compact('comic'));
     }

@@ -368,3 +368,20 @@ a {
   left: 100px;
   z-index: 2;
 }
+
+.wrap404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrap404 .box404 {
+  width: 300px;
+  color: #303030;
+  text-align: center;
+}
+.wrap404 .box404 h1 {
+  color: #0282f9;
+  font-weight: bold;
+  font-size: 100px;
+}

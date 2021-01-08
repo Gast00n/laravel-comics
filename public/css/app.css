@@ -20,6 +20,7 @@ a {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 1rem;
+  position: relative;
 }
 
 .text-center {
@@ -201,6 +202,26 @@ a {
   background: url("../images/bg-hero-home.jpg");
   background-size: cover;
   background-position: center center;
+  overflow: hidden;
+}
+.general-hero .container {
+  height: 100%;
+}
+.general-hero .container .title-box {
+  background: #0282f9;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+.general-hero .container img {
+  position: absolute;
+  bottom: -50px;
+  left: 100px;
+  z-index: 2;
 }
 
 .comics-list {

@@ -342,6 +342,64 @@ a {
   text-align: center;
 }
 
+.details .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 75px 0;
+}
+
+.detail-sx {
+  flex-basis: 70%;
+}
+.detail-sx h1 {
+  color: #003f5e;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.detail-sx .green-box {
+  background: #55ba59;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.detail-sx .green-box .price-holder {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.detail-sx .green-box .price-holder span {
+  color: rgba(255, 255, 255, 0.6);
+}
+.detail-sx .green-box .price-holder .price {
+  color: #fff;
+}
+.detail-sx .green-box .price-holder,
+.detail-sx .green-box .check-av {
+  padding: 20px;
+  border: 1px solid #303030;
+}
+.detail-sx .text p {
+  display: block;
+  margin-bottom: 10px;
+}
+.detail-sx .text p:first-child {
+  font-weight: bold;
+}
+
+.adv {
+  flex-basis: 28%;
+  text-align: right;
+  text-transform: uppercase;
+  margin-left: 2%;
+}
+.adv img {
+  width: 100%;
+}
+
 .general-hero {
   height: 390px;
   background: url("../images/bg-hero-home.jpg");
@@ -367,6 +425,11 @@ a {
   bottom: -50px;
   left: 100px;
   z-index: 2;
+}
+
+.bb-blue {
+  border-bottom: 80px solid #0282f9;
+  overflow: unset;
 }
 
 .wrap404 {

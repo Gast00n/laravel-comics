@@ -1,0 +1,65 @@
+.comics {
+    background: $darkGrey;
+    color: $white;
+    text-align: center;
+
+    a {
+        color: $white;
+    }
+    
+    .comics-list {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        text-align: left;
+
+        li {
+            flex-basis: 15%;
+            font-size: 0.8rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    
+        img {
+            width: 100%;
+        }
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 7px 50px;
+        text-transform: uppercase;
+        background: $blue;
+        font-weight: bold;
+        font-size: 0.8 5rem;
+        margin-bottom: 20px;
+    }
+}
+
+.site-map {
+    background: $blue;
+    color: $white;
+    text-transform: uppercase;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+
+        li {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: .8rem;
+
+            img {
+                width: 30px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

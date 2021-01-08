@@ -31,27 +31,31 @@
         </section>
 
         {{-- Site Section --}}
-        <ul class="sitemap mb-6">
-            <li>
-                <img src="{{ asset('images/digital-comics.png') }}" alt="">
-                <h4>Digital Comics</h4>
-            </li>
-            <li>
-                <img src="{{ asset('images/merchandise.png') }}" alt="">
-                <h4>DC Merchandise</h4>
-            </li>
-            <li>
-                <img src="{{ asset('images/subscriptions.png') }}" alt="">
-                <h4>Subscription</h4>
-            </li>
-            <li>
-                <img src="{{ asset('images/shop-locator.png') }}" alt="">
-                <h4>Comic Shop Locator</h4>
-            </li>
-            <li>
-                <img src="{{ asset('images/power-visa.svg') }}" alt="">
-                <h4>DC Power Visa</h4>
-            </li>
-        </ul>
+        <section class="site-map mb-6">
+            <div class="container">
+                <ul>
+                    <li>
+                        <img src="{{ asset('images/digital-comics.png') }}" alt="">
+                        <h4>Digital Comics</h4>
+                    </li>
+                    <li>
+                        <img src="{{ asset('images/merchandise.png') }}" alt="">
+                        <h4>DC Merchandise</h4>
+                    </li>
+                    <li>
+                        <img src="{{ asset('images/subscriptions.png') }}" alt="">
+                        <h4>Subscription</h4>
+                    </li>
+                    <li>
+                        <img src="{{ asset('images/shop-locator.png') }}" alt="">
+                        <h4>Comic Shop Locator</h4>
+                    </li>
+                    <li>
+                        <img src="{{ asset('images/power-visa.svg') }}" alt="">
+                        <h4>DC Power Visa</h4>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 @endsection

@@ -3,19 +3,21 @@ $green: #55ba59;
 $white: #fff;
 $black: #000;
 $darkBlue: #003f5e;
+$darkGrey: #1c1c1c;
 $grey: #303030;
 $lightGrey: #797979;
 
 * {
-}
-
-body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: sans-serif;
     font-size: 16px;
     color: $grey;
+    font-family: 'PT Sans Narrow', sans-serif;
     }
 
 a {

@@ -1,10 +1,14 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: sans-serif;
   font-size: 16px;
   color: #303030;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 a {
@@ -138,9 +142,63 @@ a {
   padding-bottom: 6rem;
 }
 
+.blue-row {
+  background: #0282f9;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.blue-row ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.blue-row ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.white-row {
+  padding: 20px 0;
+}
+.white-row .container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.white-row .container img {
+  width: 75px;
+}
+.white-row .container .navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.white-row .container .navbar-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 50px;
+}
+.white-row .container .navbar-nav ul li {
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #303030;
+}
+.white-row .container .navbar-nav .search-bar {
+  border-bottom: 2px solid #0282f9;
+  padding: 10px 0 10px 50px;
+  margin-left: 50px;
+  font-weight: bold;
+  color: #000;
+}
+
 .general-hero {
   height: 390px;
-  background-color: url("../images/bg-hero-home.jpg");
+  background: url("../images/bg-hero-home.jpg");
   background-size: cover;
   background-position: center center;
 }
